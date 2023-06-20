@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: pink;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:200px auto;
+    border-radius: 50px;
+
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+   margin-top: 10px;
+}
+.stopwatch{
+    width: 300px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border-radius: 20PX;
+}
+.stopwatch div{
+    display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 600;
+   
+}
+.controls{
+    text-align: center;
+}
+.controls button{
+    padding: 10px;
+    width: 100px;
+    font-size: 30px;
+    border-radius: 40px;
+    justify-content: center;
+    margin:5px;
+    border: none;
+}
+.controls button:hover{
+    background-color:#333;
+ 
+    color: bisque;
+}
+.controls :nth-of-type(1){
+    background-color: red;
+}
+.controls :nth-of-type(2){
+    background-color: green;
+}
+.controls :nth-of-type(3){
+    background-color: lightblue;
+}
